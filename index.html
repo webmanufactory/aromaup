@@ -448,7 +448,7 @@
                 let subTag = tag.next('.footer__submenu');
                 tag.next('.footer__submenu').slideToggle();
                 let subOffset = subTag.position();
-                if (subOffset.left >= -85 && subOffset.left > 85) {
+                if (subOffset.left > 90) {
                     subTag.css({'left' : '-100px' });
                 }
             });
